@@ -1,0 +1,3 @@
+# Keep the downloaded corpora and personal voice recordings out of GitHub.
+data/
+*.wav

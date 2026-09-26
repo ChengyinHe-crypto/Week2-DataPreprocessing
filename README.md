@@ -43,3 +43,9 @@ For this assignment, you will work with a selection of datasets provided in the 
 | **Github** | Provide link to your forked repository after you finalize the analyses. The screenshots of results should be taken from this final repository. The final commit should be done before the deadline. | 1 pts |
 
 ### Total Points: 5
+
+## Actor 25 label analysis
+
+The added `RAVDESS_Actor25_Analysis.ipynb` compares the emotion and gender labels for RAVDESS, Actor 25, and the combined dataset, then plots the combined balance. Put the RAVDESS speech actors under `data/RAVDESS/` and the 60 Actor 25 PCM WAV files under `data/Actor_25/`, then run the notebook from top to bottom in Jupyter. The notebook uses Python, NumPy, Matplotlib, and IPython.
+
+The audio folders are excluded from this repository. Actor 25 recordings are shared separately through the OneDrive link in the report.
