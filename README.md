@@ -46,6 +46,6 @@ For this assignment, you will work with a selection of datasets provided in the 
 
 ## Actor 25 label analysis
 
-The added `RAVDESS_Actor25_Analysis.ipynb` compares the emotion and gender labels for RAVDESS, Actor 25, and the combined dataset, then plots the combined balance. Put the RAVDESS speech actors under `data/RAVDESS/` and the 60 Actor 25 PCM WAV files under `data/Actor_25/`, then run the notebook from top to bottom in Jupyter. The notebook uses Python, NumPy, Matplotlib, and IPython.
+The added `RAVDESS_Actor25_Analysis.ipynb` counts emotion and gender labels for RAVDESS, Actor 25, and the combined dataset. It makes simple blue bar charts for each analysis and saves the notebook results in `screenshots/`. Put the RAVDESS speech actors under `data/RAVDESS/` and the 60 Actor 25 PCM WAV files under `data/Actor_25/`, then run the notebook from top to bottom in Jupyter. The notebook uses Python and Matplotlib.
 
 The audio folders are excluded from this repository. Actor 25 recordings are shared separately through the OneDrive link in the report.
