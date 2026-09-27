@@ -49,5 +49,3 @@ For this assignment, you will work with a selection of datasets provided in the 
 The analysis is added to the course `Week 2.ipynb` notebook, after the original RAVDESS section. It counts emotion and gender labels for RAVDESS, my voice recordings, and the combined data. The blue Matplotlib charts follow the tutorial style.
 
 To run the notebook, place the RAVDESS speech files in `Audio Data/Actor_*/` and my recordings in `My Voice/Actor_25/`. The personal recordings are shared separately through the OneDrive link in the report; the audio is not committed here.
-
-The `screenshots/` folder has the code and output for each analysis.
