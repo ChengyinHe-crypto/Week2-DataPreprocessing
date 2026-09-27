@@ -14,14 +14,14 @@ For this assignment, you will work with a selection of datasets provided in the 
 
 ---
 
-# Tasks: 
+# Tasks:
 
 1. During tutorial:
     - Clone the tutorial code to your repository, same as how you did last week.
     - Download the RAVDESS audio speech emotion data.
     - Run the tutorial code.
 2. Creating New Data with your voice:
-    - Record your voice as additional speech data of all of the emotion categories and save in a separate folder, make sure to use the file naming conventions of the RAVDESS dataset. Use same sentences with the RAVDESS audio examples. You will now be another Actor in the dataset. 
+    - Record your voice as additional speech data of all of the emotion categories and save in a separate folder, make sure to use the file naming conventions of the RAVDESS dataset. Use same sentences with the RAVDESS audio examples. You will now be another Actor in the dataset.
     - Add your new audio files to your own OneDrive with a shared link for us to access. Make sure we have "view" permissions. Copy this link for your report.
 3. Analysis:
     - Upload your own data to the jupyter notebook, along with RAVDESS.
@@ -44,8 +44,10 @@ For this assignment, you will work with a selection of datasets provided in the 
 
 ### Total Points: 5
 
-## Actor 25 label analysis
+## Audio emotion label analysis
 
-The added `RAVDESS_Actor25_Analysis.ipynb` counts emotion and gender labels for RAVDESS, Actor 25, and the combined dataset. It makes simple blue bar charts for each analysis and saves the notebook results in `screenshots/`. Put the RAVDESS speech actors under `data/RAVDESS/` and the 60 Actor 25 PCM WAV files under `data/Actor_25/`, then run the notebook from top to bottom in Jupyter. The notebook uses Python and Matplotlib.
+The analysis is added to the course `Week 2.ipynb` notebook, after the original RAVDESS section. It counts emotion and gender labels for RAVDESS, my voice recordings, and the combined data. The blue Matplotlib charts follow the tutorial style.
 
-The audio folders are excluded from this repository. Actor 25 recordings are shared separately through the OneDrive link in the report.
+To run the notebook, place the RAVDESS speech files in `Audio Data/Actor_*/` and my recordings in `My Voice/Actor_25/`. The personal recordings are shared separately through the OneDrive link in the report; the audio is not committed here.
+
+The `screenshots/` folder has the code and output for each analysis.
